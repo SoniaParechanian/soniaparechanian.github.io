@@ -12,15 +12,16 @@ h1 {
 	line-height: 64px;
 	margin-top: 0;
 	margin-bottom: 15px;
-	color: aqua;
+	color: #00a4b1;
 	font-weight: bold;
 }
 h2 {
    text-align: center;
    font-size: 34px;
    font-weight: bold;
-   color: hotpink;
-   margin-top: 5px;
+   color: #a72284;
+   margin-top: 4px;
+   margin-bottom: 0px;
 }
 h3 {
 	font-size: 24px;
@@ -79,7 +80,7 @@ nav a {
 	padding: 10px;
 	display: inline-block;
 }
-nav a:hover {
+nav > li > a:hover {
 	color: #13aad7;
 	text-decoration: none;
 }
@@ -105,45 +106,47 @@ footer {
 	padding-top: 160px;
 	padding-bottom: 160px;
 	background-color: #ddd;
-	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/heros/hero-KR.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(images/heros/hero-KR.JPG);
 	background-position: center 20%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 250px;
 }
+.hero h1 {
+	color: aqua;
+}
+.hero h2 {
+	color:	hotpink;
+}
 .adopt .hero {
-	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(images/heros/hero-adopt.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(images/heros/hero-adopt.JPG);
 }
 .donate .hero {
-	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(images/heros/hero-donate.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(images/heros/hero-donate.JPG);
 	background-position: center 0%;
 }
 .events .hero {
-	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(images/heros/hero-events.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(images/heros/hero-events.JPG);
 	background-position: center 0%;
 }
 .about .hero {
-	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(images/heros/hero-about.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(images/heros/hero-about.JPG);
 	background-position: center 0%;
 }
 .contact .hero {
-	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(images/heros/hero-contact.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(images/heros/hero-contact.JPG);
 	background-position: center 45%;
 }
 .shop .hero {
-	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(images/heros/hero-shop.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(images/heros/hero-shop.JPG);
 	background-position: center 6%;
 }
 .volunteer .hero {
-	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(images/heros/hero-volunteer.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(images/heros/hero-volunteer.JPG);
 	background-position: center 40%;
 }
 .happytails .hero {
-	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(images/heros/hero-happytails.jpg);
-	background-position: center 30%;
-}
-.happytails .hero {
-	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(images/heros/hero-happytails.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(images/heros/hero-happytails.JPG);
 	background-position: center 30%;
 }
 .hero2 {
@@ -153,18 +156,18 @@ footer {
 	padding-top: 160px;
 	padding-bottom: 160px;
 	background-color: #ddd;
-	background-image: url(images/heros/hero2-happytails-doubledoxie.jpg);
+	background-image: url(images/heros/hero2-happytails-doubledoxie.JPG);
 	background-position: center 20%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 250px;
 }
 .donate .hero2 {
-background-image: url(images/heros/hero2-donate.jpg);
+background-image: url(images/heros/hero2-donate.JPG);
 	background-position: center 45%;
 }
 .shop .hero2 {
-background-image: url(images/heros/hero2-shop.jpg);
+background-image: url(images/heros/hero2-shop.JPG);
 	background-position: center 72%;
 }
 .social {
@@ -173,14 +176,9 @@ background-image: url(images/heros/hero2-shop.jpg);
 .container {
     width: 100%; 
    	margin: 0 auto;
+   	padding-left: 3%;
+   	padding-top: 2%;
 }
-/*.container:after {
-	content: ".";
-	display: block;
-	height: 0;
-	clear: both;
-	visibility: hidden;
-}*/
 .main-content {
   	text-align: center;
     overflow: hidden;
@@ -206,12 +204,10 @@ background-image: url(images/heros/hero2-shop.jpg);
 .column-2 {
    	float: left;
    	width: 45%;
- 	padding: 15px;
+ 	padding: 5px;
 }
 .column-2 img {
-    width: 70%;
-    max-width: 70%;
-    margin-bottom: 20px;
+    max-width: 100%;
 }
 .clearup {
 	clear: both;
@@ -225,8 +221,8 @@ background-image: url(images/heros/hero2-shop.jpg);
 	text-align: center;
 }
 .products {
-	border: 10px solid lightblue;
-	box-shadow: 10px 10px hotpink;
+	border: 10px solid #00a4b1;
+	box-shadow: 10px 10px #a72284;
 	max-width: 420px;
 	margin-left: auto;
 	margin-right: auto;
@@ -279,7 +275,7 @@ background-image: url(images/heros/hero2-shop.jpg);
 }
 /* everything below here needs to be edited*/
 #dogs img {
-    background-image: url(Images/esar.jpg) no-repeat top left;
+    background-image: url(images/esar.JPG) no-repeat top left;
     color: #fafafa;
     text-align: center;
     height:350px;
@@ -377,26 +373,26 @@ background-image: url(images/heros/hero2-shop.jpg);
 	color:  #000033;
 }
 .about .active-about {
-	color: aqua;
+	color: #00a4b1;
 }
 .adopt .active-adopt {
-	color: aqua;
+	color: #00a4b1;
 }
 .contact .active-contact {
-	color: aqua;
+	color: #00a4b1;
 }
 .events .active-events {
-	color: aqua;
+	color: #00a4b1;
 }
 .donate .active-donate {
-	color: aqua;
+	color: #00a4b1;
 }
 .shop .active-shop {
-	color: aqua;
+	color: #00a4b1;
 }
 .volunteer .active-volunteer {
-	color: aqua;
+	color: #00a4b1;
 }
 .happytails .active-happytails {
-	color: aqua;
+	color: #00a4b1;
 }

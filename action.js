@@ -20,3 +20,6 @@ var end2 = "a>";
 document.write(st1+st2+st3+st4+eDone+">"+eDone+end1+end2);
 }
 
+/* If I wanted  to put a subject in I would add:  
+var subject = "?theparam=Inquiry";
+document.write(st1+st2+st3+st4+eDone+params+">"+eDone+end1+end2); */
