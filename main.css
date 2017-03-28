@@ -185,12 +185,6 @@ background-image: url(images/heros/hero2-shop.JPG);
 .social {
 	margin: 5px;
 }
-.container {
-    width: 100%; 
-   	margin: 0 auto;
-   	padding-left: 3%;
-   	padding-top: 2%;
-}
 .main-content {
   	text-align: center;
     overflow: hidden;
@@ -200,6 +194,7 @@ background-image: url(images/heros/hero2-shop.JPG);
     padding: 25px 0;
     max-width: 100%;
     overflow: hidden;
+    clear: both;
 }
 .column-3 {
   	float: left;
@@ -271,24 +266,21 @@ background-image: url(images/heros/hero2-shop.JPG);
 	transform: rotate(-8deg);
     font-family: 'Indie Flower', cursive;
 }
-.lefttail {
+.container {
+    width: 100%; 
+   	margin: 0 auto;
+}
+.lefttail, .righttail {
 	float: left;
-	width: 50%;
-	margin-left: 5%;
-	margin-top: 0%;
-	margin-bottom: 0%;
-	display: inline-block;
-	text-align: left;
-	max-width: 0%;
+	width: calc(50% - 20px);
+	margin: 0%;
+	box-sizing: border-box;
+}
+.lefttail {	
+	padding-right: 20px;
 }
 .righttail {
-	float: right;
-	margin-right: 5%;
-	width: 50%;
-	margin-top: 0%;
-	margin-bottom: 0%;
-	display: inline-block;
-	text-align: right;
+	padding-right: 20px;
 }
 #kurdana {
 	float: right;
