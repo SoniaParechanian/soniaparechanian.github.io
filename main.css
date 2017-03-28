@@ -62,11 +62,11 @@ nav {
 	margin-bottom: 10px;
 	text-align: center;
 	color: #00ffff;
-	/* Alternate style would be to fix the nav to the top of the page
+	/*fix the nav to the top of the page*/
 	position: fixed;
     top: 0;
     left: 0;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.9);
     border-bottom: 2px solid #ccc;
     height: 50px;
     width: 100%;
@@ -88,6 +88,10 @@ nav a {
 	display: inline-block;
 }
 nav > li > a:hover {
+	color: #13aad7;
+	text-decoration: none;
+}
+.column > h2 > a:hover {
 	color: #13aad7;
 	text-decoration: none;
 }
@@ -118,6 +122,7 @@ footer {
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 250px;
+	margin-top: 50px;
 }
 .hero h1 {
 	color: aqua;
