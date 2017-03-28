@@ -1,6 +1,6 @@
 body {
 	font-family: 'Open Sans', sans-serif;
-	color: #555;
+	color: #666;
 	margin-right: auto;
 	margin-left: auto;
 	max-width: 100%;
@@ -36,6 +36,13 @@ h4 {
    	color: hotpink;
    	margin-top: 10px;
    	margin-bottom: 10px;
+}
+h5 {
+	font-size: 64px;
+	font-weight: 300;
+	writing-mode: vertical-lr;
+	color: #00a4b1;
+	font-weight: bold;
 }
 ul {
 	margin-bottom: 10px;
@@ -86,7 +93,7 @@ nav > li > a:hover {
 }
 p {
 	font-size: 20px;
-	color: black;
+	color: #666;
 	margin-bottom: 30px;
 	line-height: 24px;
 	text-align: justify;
@@ -131,7 +138,7 @@ footer {
 }
 .about .hero {
 	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(images/heros/hero-about.JPG);
-	background-position: center 0%;
+	background-position: center 15%;
 }
 .contact .hero {
 	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(images/heros/hero-contact.JPG);
@@ -208,6 +215,17 @@ background-image: url(images/heros/hero2-shop.JPG);
 }
 .column-2 img {
     max-width: 100%;
+}
+.available {
+	/*background-color: #02ecff;*/
+	background-color: #00a4b1;
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.available p {
+	color: #ffffff;
 }
 .clearup {
 	clear: both;
