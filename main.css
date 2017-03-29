@@ -49,7 +49,7 @@ ul {
 	list-style-type: none;
 }
 a {
-	color: #cf690b;
+	color: orange;
 	text-decoration: none;
 }
 a:visited {
@@ -252,6 +252,8 @@ background-image: url(images/heros/hero2-shop.JPG);
 	display: block;
 	max-width: 70%;
 	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 .supplies {
 	text-align: left;
@@ -270,6 +272,13 @@ background-image: url(images/heros/hero2-shop.JPG);
     width: 100%; 
    	margin: 0 auto;
 }
+#kurdana {
+	float: right;
+	margin-top: 10PX;
+	margin-right: 10%;
+	margin-left: 10PX;
+}
+/*This can be deleted or ideas used for the three colums
 .lefttail, .righttail {
 	float: left;
 	width: calc(50% - 20px);
@@ -281,13 +290,7 @@ background-image: url(images/heros/hero2-shop.JPG);
 }
 .righttail {
 	padding-right: 20px;
-}
-#kurdana {
-	float: right;
-	margin-top: 10PX;
-	margin-right: 10%;
-	margin-left: 10PX;
-}
+} */
 /* everything below here needs to be edited*/
 #dogs img {
     background-image: url(images/esar.JPG) no-repeat top left;
