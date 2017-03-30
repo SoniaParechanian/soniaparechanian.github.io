@@ -240,7 +240,7 @@ background-image: url(images/heros/hero2-shop.JPG);
 }
 .products {
 	border: 10px solid #00a4b1;
-	box-shadow: 10px 10px #a72284;
+	box-shadow: 0 12px 40px #a72284;
 	max-width: 420px;
 	margin-left: auto;
 	margin-right: auto;

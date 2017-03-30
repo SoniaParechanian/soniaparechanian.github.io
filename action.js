@@ -1,4 +1,7 @@
 
+/*javascript*/
+
+/*EMAIL*/
 
 function email () {
 
@@ -23,3 +26,15 @@ document.write(st1+st2+st3+st4+eDone+">"+eDone+end1+end2);
 /* If I wanted  to put a subject in I would add:  
 var subject = "?theparam=Inquiry";
 document.write(st1+st2+st3+st4+eDone+params+">"+eDone+end1+end2); */
+
+/*Facebook
+
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}
+(document, 'script', 'facebook-jssdk'));
+*/
