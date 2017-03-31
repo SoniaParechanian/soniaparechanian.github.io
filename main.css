@@ -59,6 +59,9 @@ a {
 a:visited {
 	color: #666;
 }
+p a:visited {
+	color: #a72284;
+}
 a:hover {
 	color: #ffcc00;
 }
