@@ -9,6 +9,9 @@ body {
 	margin-left: auto;
 	max-width: 100%;
 }
+img {
+	max-width: 100%;
+}
 h1 {
 	text-align: center;
 	font-size: 64px;
@@ -92,6 +95,35 @@ nav a {
 	padding: 10px;
 	display: inline-block;
 }
+nav .active {
+	color: #00a4b1;
+}
+
+/*.about .active-about {
+	color: #00a4b1;
+}
+.adopt .active-adopt {
+	color: #00a4b1;
+}
+.contact .active-contact {
+	color: #00a4b1;
+}
+.events .active-events {
+	color: #00a4b1;
+}
+.donate .active-donate {
+	color: #00a4b1;
+}
+.shop .active-shop {
+	color: #00a4b1;
+}
+.volunteer .active-volunteer {
+	color: #00a4b1;
+}
+.happytails .active-happytails {
+	color: #00a4b1;
+}*/
+
 nav ul li a img {
 	vertical-align: middle;
 			}
@@ -193,11 +225,11 @@ background-image: url(images/heros/hero2-shop.JPG);
 .social {
 	margin: 5px;
 }
-.main-content {
+/*.main-content {
   	text-align: center;
     overflow: hidden;
     margin: auto;
-}
+}*/
 .main-tails {
   	text-align: center;
     padding: 25px 0;
@@ -398,31 +430,17 @@ background-image: url(images/heros/hero2-shop.JPG);
 }
 #testimonial5 {
 	font-family: 'Schoolbell', cursive;
-	color:  #000033;
+	color: #000033;
 }
-.about .active-about {
-	color: #00a4b1;
-}
-.adopt .active-adopt {
-	color: #00a4b1;
-}
-.contact .active-contact {
-	color: #00a4b1;
-}
-.events .active-events {
-	color: #00a4b1;
-}
-.donate .active-donate {
-	color: #00a4b1;
-}
-.shop .active-shop {
-	color: #00a4b1;
-}
-.volunteer .active-volunteer {
-	color: #00a4b1;
-}
-.happytails .active-happytails {
-	color: #00a4b1;
+
+/* TBD Fix this!  Insert sprite here when you get it.*/
+.esariconsvg {
+	/*background-image: url(images/logo/esaricon.svg);*/
+	/*background-position: 0-50px;*/
+	margin: auto;
+	width: 792px;
+	height: 612px;
+	/*background-repeat: no-repeat;*/
 }
 
 /* ==========================================================================
