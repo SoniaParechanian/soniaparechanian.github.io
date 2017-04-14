@@ -381,18 +381,12 @@ background-image: url(images/heros/hero2-shop.JPG);
 .nin {
 	color: #fff;
 	text-align: center;
-	margin-bottom: 20px;
-	padding-top: 160px;
-	padding-bottom: 160px;
+	margin-bottom: 0 auto 20px auto;
 	background-image: url(images/logo/esarnin.png);
+	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-position: 40% center;
-	max-width: 420px;
-	margin: 0 auto;
-	width: 200px;
 	height: 200px;
-	padding: 0; 
 }
 .process {
 	margin-left: auto;
