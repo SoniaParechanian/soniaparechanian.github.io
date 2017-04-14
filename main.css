@@ -380,7 +380,7 @@ background-image: url(images/heros/hero2-shop.JPG);
 }
 .nin {
 	text-align: center;
-	margin-bottom: 0 auto 20px auto;
+	margin: 0 auto 20px auto;
 	background-image: url(images/logo/esarnin.png);
 	background-position: center;
 	background-repeat: no-repeat;
