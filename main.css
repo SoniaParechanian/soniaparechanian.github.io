@@ -381,7 +381,8 @@ background-image: url(images/heros/hero2-shop.JPG);
 .nin {
 	text-align: center;
 	margin: 0 auto 20px auto;
-	background-image: url(images/logo/esarnin.png);
+	/*background-image: url(images/logo/esarnin.png);*/
+	background-image: url(images/heros/hero-contact.JPG);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
