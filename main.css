@@ -44,13 +44,16 @@ h4 {
    	margin-top: 10px;
    	margin-bottom: 10px;
 }
-h5 {
+.whitehtwo {
+   color: #fff;
+}
+/*h5 {
 	font-size: 64px;
 	font-weight: 300;
 	writing-mode: vertical-lr;
 	color: #00a4b1;
 	font-weight: bold;
-}
+}*/
 ul {
 	margin-bottom: 10px;
 	list-style-type: none;
@@ -135,6 +138,9 @@ nav > li > a:hover {
 	color: #13aad7;
 	text-decoration: none;
 }
+main {
+	margin-top: 20px;
+}
 p {
 	font-size: 20px;
 	color: #666;
@@ -149,11 +155,10 @@ footer {
 	text-align: center;
 	margin-top: 20px;
 }
-
 .hero {
 	color: #fff;
 	text-align: center;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 	padding-top: 160px;
 	padding-bottom: 160px;
 	background-color: #ddd;
@@ -214,6 +219,21 @@ footer {
 	background-size: cover;
 	height: 250px;
 }
+.gradient {
+	padding-top: 20px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fb83fa+0,40f3f9+53 */
+	background: #fb83fa; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #fb83fa 0%, #40f3f9 53%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #fb83fa 0%,#40f3f9 53%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #fb83fa 0%,#40f3f9 53%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb83fa', endColorstr='#40f3f9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.welcome p {
+	margin-top: 0;
+	font-size: 1.8em;
+	line-height: 1.5;
+	padding: 40px 0px;
+	}
 .donate .hero2 {
 background-image: url(images/heros/hero2-donate.JPG);
 	background-position: center 45%;
@@ -225,11 +245,11 @@ background-image: url(images/heros/hero2-shop.JPG);
 .social {
 	margin: 5px;
 }
-/*.main-content {
+.main-content {
   	text-align: center;
     overflow: hidden;
     margin: auto;
-}*/
+}
 .main-tails {
   	text-align: center;
     padding: 25px 0;
@@ -258,12 +278,11 @@ background-image: url(images/heros/hero2-shop.JPG);
     max-width: 100%;
 }
 .available {
-	/*background-color: #02ecff;*/
+	background-color: #02ecff;
 	background-color: #00a4b1;
 	margin-top: 20px;
-	padding-top: 20px;
+	padding-top: 40px;
 	padding-bottom: 10px;
-	margin-bottom: 10px;
 }
 .available p {
 	color: #ffffff;
@@ -287,6 +306,9 @@ background-image: url(images/heros/hero2-shop.JPG);
 	margin-right: auto;
 	margin-bottom: 50px;
 	overflow: hidden;
+}
+.products img{
+	vertical-align: bottom;
 }
 .application {
 	margin-left: auto;
@@ -314,6 +336,9 @@ background-image: url(images/heros/hero2-shop.JPG);
     width: 100%; 
    	margin: 0 auto;
 }
+.biocontainer {
+	display: grid;
+}
 #kurdana {
 	float: right;
 	margin-top: 10PX;
@@ -332,7 +357,7 @@ background-image: url(images/heros/hero2-shop.JPG);
 }
 .righttail {
 	padding-right: 20px;
-} */
+}
 /* everything below here needs to be edited*/
 #dogs img {
     background-image: url(images/esar.JPG) no-repeat top left;
@@ -359,16 +384,32 @@ background-image: url(images/heros/hero2-shop.JPG);
 	margin-bottom: 20px;
 	padding-top: 160px;
 	padding-bottom: 160px;
-	background: rgba(255,255,255,0.2), url(images/ESARNin.png);
-	/*background-image: url(images/ESARNin.png);*/
-	background-position: 0 0, center 80%;
+	background-image: url(images/logo/esarnin.png);
 	background-repeat: no-repeat;
-	background-size: cover;
-	border: 10px solid lightblue;
-	box-shadow: 10px 10px hotpink;
+	background-size: contain;
+	background-position: 40% center;
 	max-width: 420px;
+	margin: 0 auto;
+	width: 200px;
+	height: 200px;
+	padding: 0; 
+}
+.process {
 	margin-left: auto;
 	margin-right: auto;
+	max-width: 70%;
+	color: #fff;
+	font-weight: bold;
+	box-sizing: border-box;	
+}
+/* TBD Fix this!  Insert sprite here when you get it.*/
+.esariconsvg {
+	background-image: url(images/logo/esarnin.png) no-repeat;
+	background-position: cover;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	height: 200px;
 }
 .hanres {
 	color: #fff;
@@ -433,15 +474,7 @@ background-image: url(images/heros/hero2-shop.JPG);
 	color: #000033;
 }
 
-/* TBD Fix this!  Insert sprite here when you get it.*/
-.esariconsvg {
-	/*background-image: url(images/logo/esaricon.svg);*/
-	/*background-position: 0-50px;*/
-	margin: auto;
-	width: 792px;
-	height: 612px;
-	/*background-repeat: no-repeat;*/
-}
+
 
 /* ==========================================================================
    MEDIA QUERIES
