@@ -281,7 +281,7 @@ background-image: url(images/heros/hero2-shop.JPG);
     max-width: 100%;
 }
 .available {
-	background-color: #02ecff;
+	/*background-color: #02ecff;*/
 	background-color: #00a4b1;
 	margin-top: 20px;
 	padding-top: 40px;
