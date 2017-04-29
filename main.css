@@ -108,6 +108,27 @@ nav .active {
 a {
   cursor: url(images//logo/nin32by32.png), auto;	
 }
+/*Transition belongs on the base state, if we put it on the hover it didn't ease out, only in*/
+.welcome .center img, .adopt .center img {
+	 transition: all 200ms;
+}
+.welcome .center img:hover, .adopt .center img:hover  {
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+      transform: scale(1.2);
+}
+nav ul li a img {
+	vertical-align: middle;
+			}
+nav li > a:hover {
+	/*color: #13aad7;*/
+	color: #ffcc00;
+	text-decoration: none;
+	transform: scale(1.2);
+}
+/*.welcome .center a {
+	transition: all 200ms;
+}*/
 /*.about .active-about {
 	color: #00a4b1;
 }
@@ -133,17 +154,10 @@ a {
 	color: #00a4b1;
 }*/
 
-nav ul li a img {
-	vertical-align: middle;
-			}
-nav > li > a:hover {
+/*.column > h2 > a:hover {
 	color: #13aad7;
 	text-decoration: none;
-}
-.column > h2 > a:hover {
-	color: #13aad7;
-	text-decoration: none;
-}
+}*/
 main {
 	margin-top: 20px;
 }
