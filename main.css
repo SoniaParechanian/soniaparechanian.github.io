@@ -50,13 +50,6 @@ h4 {
 .whitehtwo {
    color: #fff;
 }
-/*h5 {
-	font-size: 64px;
-	font-weight: 300;
-	writing-mode: vertical-lr;
-	color: #00a4b1;
-	font-weight: bold;
-}*/
 ul {
 	margin-bottom: 10px;
 	list-style-type: none;
@@ -126,38 +119,6 @@ nav li > a:hover {
 	text-decoration: none;
 	transform: scale(1.2);
 }
-/*.welcome .center a {
-	transition: all 200ms;
-}*/
-/*.about .active-about {
-	color: #00a4b1;
-}
-.adopt .active-adopt {
-	color: #00a4b1;
-}
-.contact .active-contact {
-	color: #00a4b1;
-}
-.events .active-events {
-	color: #00a4b1;
-}
-.donate .active-donate {
-	color: #00a4b1;
-}
-.shop .active-shop {
-	color: #00a4b1;
-}
-.volunteer .active-volunteer {
-	color: #00a4b1;
-}
-.happytails .active-happytails {
-	color: #00a4b1;
-}*/
-
-/*.column > h2 > a:hover {
-	color: #13aad7;
-	text-decoration: none;
-}*/
 main {
 	margin-top: 20px;
 }
@@ -485,6 +446,35 @@ background-image: url(images/heros/hero2-shop.JPG);
 	padding-bottom: 20px;
 	margin-bottom: 0px;
 }
+.bone {
+	position: relative;
+	margin-top: 10px;
+	left: -400px;
+	top: 0;
+	animation: dogBone 2s forwards cubic-bezier(0.500, 0.250, 0.500, 0.750);
+}
+@keyframes dogBone {
+0% {
+	left: -400px;
+	transform: rotate(0deg);
+}
+25% {
+	left: -300px;
+}
+50% {
+	left: -100px;
+}
+75% {
+	left: -50px;
+}
+85% {
+	transform: rotate(1080deg);
+	}
+100%{
+	left: 0;
+	top: 0;
+	transform: rotate(1080deg);
+}}
 /* ==========================================================================
    MEDIA QUERIES
    ========================================================================== */
