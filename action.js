@@ -56,3 +56,29 @@ document.write(st1+st2+st3+st4+eDone+params+">"+eDone+end1+end2); */
 }
 (document, 'script', 'facebook-jssdk'));
 */
+
+// form
+function clearFirstName() {
+	if(document.getElementById('firstNameField').value == 'First Name')
+		document.getElementById('firstNameField').value = '';
+	}
+function resetFirstName() {
+	if(document.getElementById('firstNameField').value == '')
+		document.getElementById('firstNameField').value = 'First Name';
+	}
+function clearLastName() {
+	if(document.getElementById('lastNameField').value == 'Last Name')
+		document.getElementById('lastNameField').value = '';
+	}
+function resetLastName() {
+	if(document.getElementById('lastNameField').value == '')
+		document.getElementById('lastNameField').value = 'Last Name';
+	}
+function clearEmail() {
+	if(document.getElementById('emailField').value == 'example: info@evessanctuary.com')
+		document.getElementById('emailField').value = '';
+	}
+function resetEmail() {
+	if(document.getElementById('emailField').value == '')
+		document.getElementById('emailField').value = 'example: info@evessanctuary.com';
+	}

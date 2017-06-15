@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Eve's Sanctuary Animal Rescue - 501c3 - Online Application - Adopt Volunteer </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="Description" content="Eve's Sanctuary is an independent, no-kill, non-profit, all volunteer, animal rescue organization based in New York City">
+	<meta name="keywords" content="adopt, volunteer, rescue">
+	<link rel="shortcut icon" href="images/logo/favicon.ico" type="image/x-icon"/>
+	<link rel="shortcut icon" href="images/logo/esar.ico" type="image/ico"/><!-- Required for IE -->
+	<!-- external CSS links -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+	<link rel="stylesheet" href="main.css"  type="text/css">
+	<script src="action.js" type="text/javascript"></script>
+	<!-- <script src="http://code.jquery.com/jquery-latest.min.js"></script> -->
+</head>
+	<body class="onlineapp">
+	<header class="clearfix">
+	<div class="" style="margin-top: 60px;">
+			<h1>Apply <a href="adopt.html#linktoadopt"><img src="images/logo/esaricon.svg" height="150px" alt="back to adoptables" id="logowithwords"></a> Online</h1>
+			<p>Thank you for your interest in adoption and/or or volunteering to help animals in need of new loving homes. Please note that we are an all volunteer group with full time jobs and busy schedules and as we require a home visit for each new family to assess safety and provide education most of our placements are near MTA subways, buses, ferries or Path trains.  Occassional placements that require driving are typically reserved for senior animals or bonded pairs.</p>
+	</header>
+		<form method="post" name="online" id="apply">
+		<fieldset>
+			<h2><strong>Contact Details</strong></h2>
+			<label>First Name</label>
+			<label for="firstNameField">First Name</label>
+			<input id="firstNameField" name="firstNameField" type="text" class="textfield" value="First name" required onFocus="clearFirstName()" onBlur="resetFirstName()";>
+
+			<label>Address</label>
+			<input type="text" name="Street Address" placeholder="Street Address" required>
+
+			<label>City</label>
+			<input type="text" name="City" placeholder="City" required>
+			
+			<label>State</label>
+			<input type="text" name="State" placeholder="State">
+
+			<label>Zip Code</label>
+			<input type="number" name="Zip Code" placeholder="Zip Code" required>
+	
+			<label>Email</label>
+			<input type="email" value="email" required>
+
+			<label>Work Phone</label>
+			<input type="tel" name="WorkPhone" placeholder="Work Phone">
+
+			<label for="phoneField">Mobile Phone</label>
+			<input id="phoneField" name="mobilePhone" type="tel" class="textfield" value="mobile example: 917-123-1234" onFocus="clearPhone()" onBlur="resetPhone()" required;>
+
+			<label>Home Phone</label>
+			<input type="tel" name="HomePhone" placeholder="Home Phone">
+
+			<label>Occupation</label>
+			<input type="text" name="Occupation" placeholder="Occupation">
+			
+			<label>Title</label>
+			<input type="Text" name="Title" placeholder="Title">
+
+			<label>Employer</label>
+			<input type="text-area" name="Employer" placeholder="Employer">
+
+			<label>Employer Address</label>
+			<input type="text-area" name="EmployerAddress" placeholder="Employer Address">
+		</div>
+		<div>
+			<label>Would you like to adopt, foster to adopt, foster, volunteer?</label>
+				<select>
+					<option value="adopt">Adopt</option>
+					<option value="fostertoadopt">Foster to Adopt</option>
+					<option value="foster">Foster</option>
+					<option value="volunteer">Volunteer</option>
+				</select>
+
+			<label>How did you hear about us?</label>
+			<input type="textarea">
+			<p>Vet Information: Please provide the name and phone number of your current Veterinarian.  Please let your vet know we may call and that they are free to speak about your animals and their veterinary history.If you do not have a veterinarian we request that you locate one and provide a statement to that effect as well as a vet reference from a previously used veterinarian, if possible.</p>
+			<input type="tel" name="VetPhone" placeholder="Veternarian Phone">
+		
+			<label>Comments related to Vet</label>
+				<input type="textarea">
+
+			<label>Family Information: Children Living in Household (please include number and ages):</label>
+				<input type="textarea">
+
+			<p>All pets owed and/or fostered (past and present): (please list current and previous pets--use additional space if needed).  Please include Animal Name, Age, Years Owned, Where is this pet now? If animal is deceased, how?</p>
+				<input type="textarea" placeholder="Present Pets">
+				<input type="textarea" placeholder="Past Pets">
+
+			<label>Are your dogs/cats up to date on vaccines?</label>
+				<select>
+					<option value="yes">Yes</option>
+					<option value="no">No</option>
+				</select>
+
+			<label>Are your dogs/cats spayed/neutered?</label>
+				<select>
+					<option value="yes">Yes</option>
+					<option value="no">No</option>
+				</select>
+
+			<label>If not, why not?</label>
+				<input type="textarea" placeholder= "Explaination">
+
+			<label>Have you ever had a cat declawed or a dog debarked?</label>
+				<select>
+					<option value="yes">Yes</option>
+					<option value="no">No</option>
+				</select>
+
+			<label>Cats at home – Have they been tested for Feline Leukemia and FIV?</label>
+				<select>
+					<option value="yes">Yes</option>
+					<option value="no">No</option>
+				</select>
+
+			<label>Test Results for Feline Leukemia, if applicable</label>
+				<select>
+					<option value="positive">Positive</option>
+					<option value="negative">Negative</option>
+					<option value="notapplicable">N/A</option>
+				</select>
+				<input type="textarea" placeholder="Comment if you like">
+
+			<label>Do your animals ever go outside?</label> 
+				<select>
+					<option value="yes">Yes</option>
+					<option value="no">No</option>
+				</select>
+
+			<label>Please explain:</label>
+				<input type="textarea" placeholder="Do animals ever go outside?">
+
+			<label>Do you have screens on ALL your windows?</label>
+				<select>
+					<option value="yes">Yes</option>
+					<option value="no">No</option>
+				</select>
+
+			<label>Home Situation (Pleae select Own or Rent):</label>
+				<select>
+					<option value="own">Own</option>
+					<option value="rent">Rent</option>
+				</select>
+
+			<label>Dogs at home – Have they been tested for Heartworm and/or Lyme's disease?</label>
+				<input type="textarea" placeholder="have dogs been tested for heartworm and or Lyme?">
+
+			<label>Test Results:</label>
+				<input type="textarea">
+
+			<label>Is building pet friendly?</label>
+				<select>
+					<option value="yes">Yes</option>
+					<option value="no">No</option>
+				</select>
+
+			<label>How many years at current residence?</label>
+				<input type="number">
+
+			<label>Do you anticipate staying at this address?</label>
+				<input type="textarea">
+
+			<label>I live in a:</label>
+				<select>
+					<option value="house">House</option>
+					<option value="condo">Condo</option>
+					<option value="coop">Co-op or cond-op</option>
+					<option value="apartment">Apartment</option>
+				</select>
+
+			<label>I live:</label>
+				<select>
+					<option value="alone">by myself</option>
+					<option value="partner">with a partner</option>
+					<option value="family">with a partner and children</option>
+					<option value="parents">with my parents or relatives</option>
+					<option value="roomates">with roomates</option>
+				</select>
+
+			<label>Are others living with you aware of your intension to adopt, and onboard with the idea of a new 4 leg family member?</label>
+			<input type="text" name="aware" placeholder="Yes, No, Not Applicable"> 
+
+			<label>Landlords Name:</label>
+			<input type="text" name="landlord" placeholder="Landlord Name"> 
+
+			<label>Landlord's Phone Number:</label>
+			<input type="number" name="landlordnumber" placeholder="Landlord Phone"> 
+
+			<label>How many hours a day will this animal be left alone?</label>
+			<input type="number">
+
+			<label>Where will the animal be kept when alone?</label>
+			<input type="textarea">
+
+			<label>Who primarily is responsible for the pet?</label>
+			<input type="textarea">
+
+			<label>Where is the pet to be kept during the day?</label>
+			<input type="textarea">
+
+			<label>And at night?</label>
+			<input type="textarea">
+
+			<label>Do you travel often?</label>
+			<select>
+				<option value="yes">Yes</option>
+				<option value="no">No</option>
+			</select>
+
+			<label>When you travel, how will you, or do you provide for your animal(s) while you are away?</label>
+			<input type="textarea">
+
+			<label>What will happen to this pet in case of emergency while you are away?</label>
+			<input type="textarea">
+
+			<label>To feed, dog walker or cat sitting, license, provide medical care, bedding, and toys: I anticipate spending (check one) per month.</label>
+			<select>
+				<option value="50">$50</option>
+				<option value="100">$100</option>
+				<option value="200">$200</option>
+				<option value="300">$300</option>
+				<option value="More than $300">More than $300</option>
+			</select>
+
+			<label>If you chose other, or have a comment enter here"
+			<input type="textarea">
+
+			<label>If the pet were to become injured or ill what would you do?</label>
+			<input type="textarea">
+
+			<label>What would you do if treatment was expensive?</label>
+			<input type="textarea">
+
+			<label>Have you or any member of your family or household had a history of allergies or asthma?</label>
+			<input type="textarea">
+
+			<label>What will you do if the new pet does not get along with present pets?</label>
+			<input type="textarea">
+
+			<label>Have you ever turned an animal over to a shelter / rescue group or given up a pet for any reason?</label>
+			<input type="textarea">
+
+			<label>If yes please explain:</label>
+			<input type="textarea">
+
+			<label>Are you familiar with the laws and ordinances of your city, County and State ON:</label>
+				<label>Licensing?</label>
+					<select>
+						<option value="yes">Yes</option>
+						<option value="no">No</option>
+					</select>
+				<label>Number of pets allowed?</label>
+					<select>
+						<option value="yes">Yes</option>
+						<option value="no">No</option>
+					</select>
+				<label>Leash requirements?</label>
+					<select>
+						<option value="yes">Yes</option>
+						<option value="no">No</option>
+					</select>
+				<label>Laws, ordinances, and or restrictions against certain breeds or types of animals?</label>
+					<select>
+						<option value="yes">Yes</option>
+						<option value="no">No</option>
+					</select>
+				<label>Regardless of your age, are you willing to include plans, a custodian and assets to support your pet in estate planning?</label>
+		</div>
+		<div> 
+		<h2>Tell us about your preferences</h2>
+		<label>Are you interested in a dog or a cat?</label>
+			<select>
+				<option value="dog">Dog</option>
+				<option value="cat">Cat</option>
+			</select>
+
+		<label>Which animals are you interested in, please rank by your preference:</label> 
+			<input type="textarea">
+
+		<label>Why do you want to foster / adopt / volunteer?</label>
+			<input type="textarea">
+
+		<label>What breed(s) are you looking to foster/adopt?</label>
+			<input type="textarea">
+
+		<label>Do you have any breed specific experience (grooming, care, behavior):</label>
+			<input type="textarea">
+
+		<label>Describe your ideal animal companion's personality:</label>
+			<input type="textarea">
+	
+		<label>Age desired:</label>
+			<input type="number 1,25" placeholder="age">
+
+		<label>Sex desired:</label>
+			<select>
+				<option value="male">Male</option>
+				<option value="female">Female</option>
+				<option value="nopreferrence"> value="No Preferrence"</option>
+			</select>
+	
+		<label>Color desired:</label>
+			<input type="textarea">
+
+		<h2>Two references are required (Not Related):</h2>
+			<label>Reference One:</label>
+				<input type="text" name="Full Name" placeholder="Reference One">
+				<input type="email" name="email" placeholder="email">
+				<input type="tel" name="phone" placeholder="phone">
+			<label>Reference Two:</label>
+				<input type="text" name="Full Name" placeholder="Reference Two">
+				<input type="email" name="email" placeholder="email">
+				<input type="tel" name="phone" placeholder="phone">
+	</div>
+
+	<div>
+		<h2>Agreement</h2>
+
+			<label>Please provide complete, accurate information.  Email addresses for references may expedite processing of your application. Please inform your references that they will be contacted. </label>
+			<input type="checkbox">
+
+			<label>Applications are processed as expeditiously as possible on a first in, first processed basis. We do accept online applications but they must be followed up by receipt of a signed version (in person or by mail).</label>
+			<input type="checkbox">
+
+			<label>Please also note your agreement with and awareness of our policies and your responsibilities by checking the boxes below prior to submitting your application:</label>
+			<input type="checkbox">
+
+			<label>By checking this box, I agree to abide by all local animal ordinances, leases, and property ownership agreements as they pertain to the legally defined number of pets allowed in any human domicile or associated/attached properties.  I further agree that, should I be in violation of any local animal ordinances, leases, and property ownership agreements pertaining to the number of animals allowed, I hold harmless Eve’s Sanctuary Animal Rescue, and all associated Rescue organizations in all matters, and assume all legal and/or financial liabilities pertaining to any violations of said ordinances, leases, and/or agreements.</label><input type="checkbox">
+
+			<label>I will tell my veterinarian  that Eve’s Sanctuary Animal Rescue may be calling for a recommendation and that they have my permission to speak freely. If I rent, I will tell my landlord or management company to expect a call, as well.</label><input type="checkbox">
+
+			<label>Yes, I understand that if my breed preference is a breed that has a recognized formal rescue group of it's own that works cooperatively with Eve’s Sanctuary Animal Rescue, the information in this application may be provided to that breed rescue group to facilitate signing up to foster with that group.</label>
+			<input type="checkbox">
+
+			<label>Yes, I understand that a home visit evaluation is required prior to my application being approved and/or during the foster.  I have read the Eve’s Sanctuary Animal Rescue Foster Contract and agree to return a signed copy, as requested, should I be accepted as a Eve’s Sanctuary Animal Rescue foster.</label>
+			<input type="checkbox">
+
+			<label>I certify the above to be true and complete to the best of my knowledge.</label>
+			<input type="checkbox">
+			<label>We will ask for your signature when you meet us in person, please initial:</label>
+				<input type="text-area">
+			<label>Date:</label>
+				<input "date" placeholder="date">
+
+		<p>Thank you for your interest and time.  We suggest you also send an email to confirm submission.</p>
+		<input id="submit" type="submit" name="submit" value="Submit">
+	</fieldset>
+	</form>
+
+		<!-- javascript -->
+		<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+		<script src="js/main.js"></script>
+	<footer>
+		<nav>
+			<ul>
+				<a href="index.html"><img src="images/logo/colorlogonotext.png" height="30px" alt="Home"></a>
+			</ul>
+		</nav>
+	</footer>
+	</body>
+</html>

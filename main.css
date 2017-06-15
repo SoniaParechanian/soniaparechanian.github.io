@@ -136,6 +136,9 @@ footer {
 	text-align: center;
 	margin-top: 20px;
 }
+fieldset {
+	border: none;
+}
 .hero {
 	color: #fff;
 	text-align: center;
@@ -289,6 +292,9 @@ background-image: url(images/heros/hero2-shop.JPG);
 .products img{
 	vertical-align: bottom;
 }
+#logowithwords {
+	vertical-align: middle;	
+}
 .application {
 	margin-left: auto;
 	margin-right: auto;
@@ -297,7 +303,22 @@ background-image: url(images/heros/hero2-shop.JPG);
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
-
+.onlineapp {
+	max-width: 80%;
+	line-height: 1.8;
+	font-size: 20px;
+}
+#submit, #clearCookie {
+    display: block;
+    font-size: 1em;
+    color: #FFF;
+    text-transform: uppercase;
+    background: #00a4b1;
+    padding: .8em 1em .7em;
+    border: 0;
+   border-radius: 10%;
+    margin-top: 15px;
+}
 .supplies {
 	text-align: left;
 	max-width: 80%;
@@ -455,25 +476,10 @@ background-image: url(images/heros/hero2-shop.JPG);
 }
 @keyframes dogBone {
 0% {
-	left: -400px;
-	transform: rotate(0deg);
+	transform: translate(-300px,0), rotate(1800deg); 
 }
-25% {
-	left: -300px;
-}
-50% {
-	left: -100px;
-}
-75% {
-	left: -50px;
-}
-85% {
-	transform: rotate(1080deg);
-	}
-100%{
-	left: 0;
-	top: 0;
-	transform: rotate(1080deg);
+100% {
+	transform: translate(840px,0) rotate(1800deg);
 }}
 /* ==========================================================================
    MEDIA QUERIES
